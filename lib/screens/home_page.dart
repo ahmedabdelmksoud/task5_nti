@@ -142,7 +142,7 @@ class _HomePageState extends State<HomePage> {
           onPressed: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => ProfilePage(userId: 1)),
+              MaterialPageRoute(builder: (context) => ProfilePage()),
             );
           },
           child: const Text("Go to Profile Page"),
